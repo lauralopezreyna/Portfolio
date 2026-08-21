@@ -1,0 +1,28 @@
+.about-text {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.about-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about-text p {
+    font-size: 20px;
+}
+
+
+body {
+    font-family:Arial,sans-serif;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+    font-size: 16px;
+}
+
