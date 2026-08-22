@@ -4,6 +4,9 @@ h1 {
     color: black;
 }
 
+.projects-title{
+    font-family: "Unica One", sans-serif;
+}
 .nav-logo {
     width: 30px;
     height: auto;
