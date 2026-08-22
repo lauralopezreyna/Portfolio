@@ -20,6 +20,15 @@ h1 {
     font-weight: 350;
 }
 
+.black-link{
+    color: black;
+    text-decoration: none;
+}
+
+.black-link:hover{
+    text-decoration: underline;
+}
+
 .projects-title{
     font-family: "Markazi Text", serif;
     font-size: 50px;
