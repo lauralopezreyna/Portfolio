@@ -17,12 +17,10 @@ body {
     font-family:Arial,sans-serif;
 }
 
-.navbar{
-    background-color: white;
-}
-
-.nav-link {
+.navbar .nav-link {
     color: white;
-    font-size: 16px;
 }
 
+.navbar .nav-link:hover {
+    color: gray;
+}
