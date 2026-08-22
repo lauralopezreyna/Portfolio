@@ -59,13 +59,13 @@ h1 {
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 3px solid black;
 }
 
 .art-image {
     width: 90%;
     display: block;
     margin: 0 auto;
-    border: 3px solid black;
 }
 
 .logo-text{
