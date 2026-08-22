@@ -16,3 +16,8 @@ h1 {
 .navbar .nav-link:hover {
     color: gray;
 }
+
+.content-width {
+    max-width: 1000px;
+    margin: 0 auto;
+}
