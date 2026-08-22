@@ -4,6 +4,17 @@ h1 {
     color: black;
 }
 
+.info-section {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.info-section h2 {
+    font-family: "Cinzel Decorative", serif;
+}
+
 .projects-title{
     font-family: "Unica One", sans-serif;
     font-size: 50px;
