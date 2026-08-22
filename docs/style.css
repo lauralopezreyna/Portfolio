@@ -6,6 +6,13 @@ h1 {
 
 .projects-title{
     font-family: "Unica One", sans-serif;
+    font-size: 50px;
+}
+
+.project-image {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 .nav-logo {
     width: 30px;
