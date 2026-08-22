@@ -43,6 +43,7 @@ h1 {
 }
 
 .carousel-caption {
+    position: static;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
 }
