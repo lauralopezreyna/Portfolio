@@ -15,8 +15,13 @@ h1 {
     font-family: "Cinzel Decorative", serif;
 }
 
+.info-section h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 350;
+}
+
 .projects-title{
-    font-family: "Unica One", sans-serif;
+    font-family: "Cinzel Decorative", serif;
     font-size: 50px;
 }
 
