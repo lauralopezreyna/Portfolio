@@ -4,6 +4,11 @@ h1 {
     color: black;
 }
 
+.nav-logo {
+    width: 30px;
+    height: auto;
+}
+
 .navbar .nav-link {
     color: white;
 }
