@@ -11,6 +11,11 @@ h1 {
     color: black;
 }
 
+.coursework ul {
+    columns: 2;
+    column-gap: 3rem;
+}
+
 .info-section {
     background-color: black;
     color: white;
