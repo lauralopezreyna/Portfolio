@@ -68,7 +68,9 @@ h1 {
 }
 
 .art-image {
-    width: 90%;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
     display: block;
     margin: 0 auto;
     border: 3px solid black;
