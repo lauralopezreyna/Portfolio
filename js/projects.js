@@ -49,7 +49,7 @@ const PROJECTS = [
     ],
     /* The first photo is the big one at the top of the page. */
     photos: [
-      { src: "images/projects/turf-wars-robot/photo-1.jpg", label: "[PHOTO: final robot]", caption: "Completed Turf Wars competition robot." },
+      { src: "images/robotcad.png", label: "[PHOTO: final robot]", caption: "Completed Turf Wars competition robot." },
       { src: "images/projects/turf-wars-robot/photo-2.jpg", label: "[IMAGE: CAD model]", caption: "SolidWorks model of the robot and its mechanical components." },
       { src: "images/projects/turf-wars-robot/photo-3.jpg", label: "[VIDEO: testing & iteration]", caption: "Prototype testing during the robot's development." },
       { src: "images/projects/turf-wars-robot/photo-4.jpg", label: "[YOUR CONCEPT SKETCH]", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
