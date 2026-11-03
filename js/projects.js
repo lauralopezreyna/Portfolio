@@ -11,7 +11,7 @@
 const SITE = {
   name: "Laura Lopez Reyna",
   email: "lauralopezreyna@college.harvard.edu",
-  linkedin: "https://www.linkedin.com/in/your-profile-here"   // <-- paste your real LinkedIn link here
+  linkedin: "www.linkedin.com/in/lauralopezreyna"   // <-- paste your real LinkedIn link here
 };
 
 /* ---------------------------------------------------------------------
