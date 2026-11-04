@@ -50,9 +50,9 @@ const PROJECTS = [
     /* The first photo is the big one at the top of the page. */
     photos: [
       { src: "images/robotcad.png", label: "", caption: "Completed Turf Wars competition robot." },
-      { src: "images/projects/turf-wars-robot/photo-2.jpg", label: "[IMAGE: CAD model]", caption: "SolidWorks model of the robot and its mechanical components." },
-      { src: "images/projects/turf-wars-robot/photo-3.jpg", label: "[VIDEO: testing & iteration]", caption: "Prototype testing during the robot's development." },
-      { src: "images/projects/turf-wars-robot/photo-4.jpg", label: "[YOUR CONCEPT SKETCH]", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
+      { src: "images/projects/turf-wars-robot/photo-2.jpg", label: "", caption: "SolidWorks model of the robot and its mechanical components." },
+      { src: "images/projects/turf-wars-robot/photo-3.jpg", label: "", caption: "Prototype testing during the robot's development." },
+      { src: "images/projects/turf-wars-robot/photo-4.jpg", label: "", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
     ]
   },
 
@@ -64,28 +64,28 @@ const PROJECTS = [
     course: "ES155",
     sub: "ES155 | In progress",
     cardText: "A sensor-based water dispenser that pours the right amount of liquid for any cup, no matter its size.",
-    cardTools: "[tools and skills used]",
+    cardTools: "Solidworks, laser cutting, 3D printing",
     image: "images/water_dispenser.png",
-    team: "[team size]",
-    role: "[your role]",
-    tools: "[tools and skills used]",
+    team: "3",
+    role: "Integration Lead",
+    tools: "Solidworks, laser cutting, 3D printing",
     story: {
       challenge: "Dispense an accurate amount of liquid for any cup, without the user having to choose a size.",
-      did: "[What you designed, built, or programmed.]",
-      hard: "[What didn't work the first time, and what you changed.]",
-      ended: "[How it turned out, and what's next.]",
-      again: "[One thing you'd do differently.]"
+      did: "IN PROGRESS",
+      hard: "IN PROGRESS",
+      ended: "IN PROGRESS",
+      again: "IN PROGRESS"
     },
     stats: [
-      { label: "Dispense Accuracy", value: "[measured accuracy]" },
-      { label: "Cup Sizes Tested", value: "[number]" },
-      { label: "Dispense Time", value: "[time]" }
+      { label: "Dispense Accuracy", value: "IN PROGRESS" },
+      { label: "Cup Sizes Tested", value: "IN PROGRESS" },
+      { label: "Dispense Time", value: "IN PROGRESS" }
     ],
     photos: [
-      { src: "images/projects/water-dispenser/photo-1.jpg", label: "[PHOTO: the dispenser]", caption: "The completed dispenser prototype." },
-      { src: "images/projects/water-dispenser/photo-2.jpg", label: "[IMAGE: CAD or circuit diagram]", caption: "The design or circuit behind the dispenser." },
-      { src: "images/projects/water-dispenser/photo-3.jpg", label: "[VIDEO: it dispensing]", caption: "Testing with different cup sizes." },
-      { src: "images/projects/water-dispenser/photo-4.jpg", label: "[YOUR CONCEPT SKETCH]", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
+      { src: "images/projects/water-dispenser/photo-1.jpg", label: "", caption: "The completed dispenser prototype." },
+      { src: "images/projects/water-dispenser/photo-2.jpg", label: "", caption: "The design behind the dispenser." },
+      { src: "images/projects/water-dispenser/photo-3.jpg", label: "", caption: "Testing with different cup sizes." },
+      { src: "images/projects/water-dispenser/photo-4.jpg", label: "", caption: "Prototype phase", wide: true }
     ]
   },
 
@@ -99,15 +99,15 @@ const PROJECTS = [
     cardText: "A 4:1 gear system to bring a 10 RPM motor toward a 40 RPM rotating drum, plus a lot of iterating on wobble and alignment.",
     cardTools: "SolidWorks, 3D printing, laser cutting, gear design",
     image: "images/speaker.jpg",
-    team: "[team size]",
-    role: "[your role]",
-    tools: "SolidWorks, 3D printing, laser cutting, gear design",
+    team: "2",
+    role: "Mechanical Engineering lead",
+    tools: "SolidWorks, 3D printing, laser cutting",
     story: {
       challenge: "Get a rotating speaker drum to spin at about 40 RPM, using a motor that turns at 10 RPM.",
       did: "I designed a 4:1 gear system to bring the motor's 10 RPM up toward the 40 RPM the drum needed.",
       hard: "Fixing wobble and alignment in the rotating assembly took several rounds of iteration.",
-      ended: "[How close the drum got to 40 RPM, and how it sounded.]",
-      again: "[One thing you'd do differently.]"
+      ended: "The drum was able to get to 40 RPM; however, in order to get the desired distortion, the RPM should've been higher.",
+      again: "Given more time, we'd change our rotating mechanism to include bearings on the top as our gear setup kept slipping, so more stability was needed."
     },
     stats: [
       { label: "Gear Ratio", value: "4:1" },
@@ -115,10 +115,10 @@ const PROJECTS = [
       { label: "Target Drum Speed", value: "40 RPM" }
     ],
     photos: [
-      { src: "images/projects/leslie-speaker/photo-1.jpg", label: "[PHOTO: final prototype]", caption: "The final prototype." },
-      { src: "images/projects/leslie-speaker/photo-2.jpg", label: "[IMAGE: CAD model]", caption: "CAD of the gear system and rotating drum." },
-      { src: "images/projects/leslie-speaker/photo-3.jpg", label: "[VIDEO: it spinning]", caption: "The drum spinning." },
-      { src: "images/projects/leslie-speaker/photo-4.jpg", label: "[YOUR CONCEPT SKETCH]", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
+      { src: "images/projects/leslie-speaker/photo-1.jpg", label: "", caption: "The final prototype." },
+      { src: "images/projects/leslie-speaker/photo-2.jpg", label: "", caption: "CAD of the gear system and rotating drum." },
+      { src: "images/projects/leslie-speaker/photo-3.jpg", label: "", caption: "The drum spinning." },
+      { src: "images/projects/leslie-speaker/photo-4.jpg", label: "", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
     ]
   },
 
@@ -132,8 +132,8 @@ const PROJECTS = [
     cardText: "I took a Nuova Simonelli portafilter apart, built its bill of materials, and found where the cost really hides: steel machining.",
     cardTools: "teardown, BOM, cost estimation, DFM",
     image: "images/portafilter.jpg",
-    team: "[team size]",
-    role: "[your role]",
+    team: "2",
+    role: "Broke down tool & and aided in cost estimation",
     tools: "teardown, BOM, cost estimation, DFM",
     story: {
       challenge: "Take apart a Nuova Simonelli portafilter, document every part, and work out what drives its cost.",
@@ -145,7 +145,7 @@ const PROJECTS = [
     stats: [
       { label: "Largest Cost", value: "Steel machining" },
       { label: "Parts in the BOM", value: "[number]" },
-      { label: "Estimated Cost", value: "[amount]" }
+      { label: "Estimated Cost per Unit", value: "[amount]" }
     ],
     photos: [
       { src: "images/projects/portafilter-teardown/photo-1.jpg", label: "[PHOTO: the portafilter]", caption: "The Nuova Simonelli portafilter." },
