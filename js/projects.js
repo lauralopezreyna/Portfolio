@@ -11,7 +11,7 @@
 const SITE = {
   name: "Laura Lopez Reyna",
   email: "lauralopezreyna@college.harvard.edu",
-  linkedin: "www.linkedin.com/in/lauralopezreyna"   // <-- paste your real LinkedIn link here
+  linkedin: "www.linkedin.com/in/lauralopezreyna"   
 };
 
 /* ---------------------------------------------------------------------
@@ -160,10 +160,10 @@ const PROJECTS = [
     file: "print_tray.proj",
     title: "Print Collection Tray",
     summary: "A simple tray for a Formlabs nylon printer that collects and transports finished prints.",
-    course: "[course or personal project]",
+    course: "Personal Project",
     sub: "Finished | CAD design",
     cardText: "A simple tray, designed in CAD, that collects and transports prints from a Formlabs FUSE printer.",
-    cardTools: "[tools and skills used]",
+    cardTools: "solidworks",
     image: "images/print_tray.png",
     team: "individual",
     role: "designer",
