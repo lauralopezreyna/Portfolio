@@ -162,7 +162,7 @@ const PROJECTS = [
     summary: "A simple tray for a Formlabs nylon printer that collects and transports finished prints.",
     course: "[course or personal project]",
     sub: "Finished | CAD design",
-    cardText: "A simple tray, designed in CAD, that collects and transports prints from a Formlabs nylon printer.",
+    cardText: "A simple tray, designed in CAD, that collects and transports prints from a Formlabs FUSE printer.",
     cardTools: "[tools and skills used]",
     image: "images/print_tray.png",
     team: "individual",
@@ -170,14 +170,14 @@ const PROJECTS = [
     tools: "solidworks, PRUSA 3D printer",
     story: {
       challenge: "Collect finished prints from a Formlabs nylon printer and transport them easily.",
-      did: "[What you designed and how you modeled it.]",
-      hard: "[What didn't work the first time, and what you changed.]",
-      ended: "[How it turned out, and how it's used.]",
-      again: "[One thing you'd do differently.]"
+      did: "I designed a 3d printable tray to carry finished nylon prints for easier post processing. I focused on easy access for smaller harder to grab prints, and implemented fillets and chamfers for easy human use.",
+      hard: "As the tray had to be stackable, implementing a feature that didn't --- was difficult. I ended up choosing slots that slide into one another, but I ran across the eroor of the slots being press fit. This was corrected by making the insertion slot have an offset.",
+      ended: "Overall it does the needed function well!",
+      again: "I'd recreate this again with a sliding insertion stacking method as that has a lower chance of having a fitting issue; however, a trade off would be losing available tray area."
     },
     stats: [
-      { label: "Tray Capacity", value: "[prints or size]" },
-      { label: "Material", value: "[material]" },
+      { label: "Tray Capacity", value: "150mm x 150mm x 50mm" },
+      { label: "Material", value: "PLA" },
       { label: "Status", value: "Finished" }
     ],
     photos: [
