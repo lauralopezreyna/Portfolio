@@ -52,7 +52,7 @@ const PROJECTS = [
       { src: "images/robot.png", label: "", caption: "Completed Turf Wars competition robot." },
       { src: "images/robotcad.png", label: "", caption: "SolidWorks model of the robot and its mechanical components." },
       { src: "images/projects/turf-wars-robot/photo-3.jpg", label: "", caption: "Prototype testing during the robot's development." },
-      { src: "images/projects/turf-wars-robot/photo-4.jpg", label: "", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
+      /*{ src: "images/projects/turf-wars-robot/photo-4.jpg", label: "", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }*/
     ]
   },
 
@@ -84,8 +84,8 @@ const PROJECTS = [
     photos: [
       { src: "images/projects/water-dispenser/photo-1.jpg", label: "", caption: "The completed dispenser prototype." },
       { src: "images/projects/water-dispenser/photo-2.jpg", label: "", caption: "The design behind the dispenser." },
-      { src: "images/projects/water-dispenser/photo-3.jpg", label: "", caption: "Testing with different cup sizes." },
-      { src: "images/projects/water-dispenser/photo-4.jpg", label: "", caption: "Prototype phase", wide: true }
+      /*{ src: "images/projects/water-dispenser/photo-3.jpg", label: "", caption: "Testing with different cup sizes." },
+      { src: "images/projects/water-dispenser/photo-4.jpg", label: "", caption: "Prototype phase", wide: true }*/
     ]
   },
 
@@ -118,7 +118,7 @@ const PROJECTS = [
       { src: "images/projects/leslie-speaker/photo-1.jpg", label: "", caption: "The final prototype." },
       { src: "images/projects/leslie-speaker/photo-2.jpg", label: "", caption: "CAD of the gear system and rotating drum." },
       { src: "images/projects/leslie-speaker/photo-3.jpg", label: "", caption: "The drum spinning." },
-      { src: "images/projects/leslie-speaker/photo-4.jpg", label: "", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
+      /*{ src: "images/projects/leslie-speaker/photo-4.jpg", label: "", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }*/
     ]
   },
 
@@ -151,7 +151,7 @@ const PROJECTS = [
       { src: "images/projects/portafilter-teardown/photo-1.jpg", label: "[PHOTO: the portafilter]", caption: "The Nuova Simonelli portafilter." },
       { src: "images/projects/portafilter-teardown/photo-2.jpg", label: "[IMAGE: BOM and cost chart]", caption: "The bill of materials and where the cost goes." },
       { src: "images/projects/portafilter-teardown/photo-3.jpg", label: "[IMAGE: the disassembled parts]", caption: "Every part laid out after the teardown." },
-      { src: "images/projects/portafilter-teardown/photo-4.jpg", label: "[YOUR CONCEPT SKETCH]", caption: "Optional: a sketch of a lower-cost design.", wide: true }
+      /*{ src: "images/projects/portafilter-teardown/photo-4.jpg", label: "[YOUR CONCEPT SKETCH]", caption: "Optional: a sketch of a lower-cost design.", wide: true }*/
     ]
   },
 
@@ -181,9 +181,9 @@ const PROJECTS = [
       { label: "Status", value: "Finished" }
     ],
     photos: [
-      { src: "images/projects/print-tray/photo-1.jpg", label: "[PHOTO: the tray]", caption: "The finished tray." },
-      { src: "images/projects/print-tray/photo-2.jpg", label: "[IMAGE: CAD model]", caption: "CAD model of the tray." },
-      { src: "images/projects/print-tray/photo-3.jpg", label: "[VIDEO: tray in use]", caption: "The tray collecting and carrying prints." },
+      { src: "images/projects/print-tray/photo-1.jpg", label: "[PHOTO: the tray]", caption: "CAD model of the tray." },
+      /*{ src: "images/projects/print-tray/photo-2.jpg", label: "[IMAGE: CAD model]", caption: "CAD model of the tray." },
+      { src: "images/projects/print-tray/photo-3.jpg", label: "[VIDEO: tray in use]", caption: "The tray collecting and carrying prints." },*/
     ]
   }
 
