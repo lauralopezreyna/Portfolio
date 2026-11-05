@@ -293,5 +293,17 @@ img { max-width: 100%; }
   .lb-card { transition: none; }
 }
 
+/* show photos in their natural shape: no cropping, no stretching */
+.figure-media { height: auto; }
+.figure-media img { display: block; width: 100%; height: auto; max-height: 80vh; object-fit: contain; }
+.figure.hero .figure-media { height: auto; }
+.figure.hero .figure-media img { height: auto; max-height: 80vh; object-fit: contain; }
+.gallery { align-items: flex-start; }
+
+/* grey placeholder boxes keep a fixed size until you add a picture */
+.figure-media .ph { height: 340px; }
+.figure.hero .figure-media .ph { height: 460px; }
+
+/* videos stay a wide 16:9 frame */
 .figure-media.video { height: auto; aspect-ratio: 16 / 9; background: #000000; }
 .figure-media.video iframe, .figure-media.video video { display: block; width: 100%; height: 100%; border: 0; }
