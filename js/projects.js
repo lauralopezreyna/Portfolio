@@ -70,16 +70,16 @@ const PROJECTS = [
     role: "Integration Lead",
     tools: "Solidworks, laser cutting, 3D printing",
     story: {
-      challenge: "Dispense an accurate amount of liquid for any cup, without the user having to choose a size.",
-      did: "IN PROGRESS",
-      hard: "IN PROGRESS",
+      challenge: "Build an automatic water filling station that detects a container’s height and fills it just below the rim, without the user having to select a size.",
+      did: "As Integration Lead, I’m responsible for assembling the sensor, pump, and frame and running experiments to check how the components work together.",
+      hard: "Measuring the water level has been the biggest challenge so far. Our sensor consistently detects the bottle rim, but readings inside the bottle are too scattered to reliably track the water surface.",
       ended: "IN PROGRESS",
       again: "IN PROGRESS"
     },
     stats: [
-      { label: "Dispense Accuracy", value: "IN PROGRESS" },
-      { label: "Cup Sizes Tested", value: "IN PROGRESS" },
-      { label: "Dispense Time", value: "IN PROGRESS" }
+      { label: "Dispense Accuracy", value: "Testing pending" },
+      { label: "Cup Sizes Tested", value: "Fill testing pending" },
+      { label: "Dispense Time", value: "Testing pending" }
     ],
     photos: [
       { src: "images/projects/water-dispenser/photo-1.jpg", label: "", caption: "The completed dispenser prototype." },
@@ -103,11 +103,11 @@ const PROJECTS = [
     role: "Mechanical Engineering lead",
     tools: "SolidWorks, 3D printing, laser cutting",
     story: {
-      challenge: "Get a rotating speaker drum to spin at about 40 RPM, using a motor that turns at 10 RPM.",
-      did: "I designed a 4:1 gear system to bring the motor's 10 RPM up toward the 40 RPM the drum needed.",
-      hard: "Fixing wobble and alignment in the rotating assembly took several rounds of iteration.",
-      ended: "The drum was able to get to 40 RPM; however, in order to get the desired distortion, the RPM should've been higher.",
-      again: "Given more time, we'd change our rotating mechanism to include bearings on the top as our gear setup kept slipping, so more stability was needed."
+      challenge: "We had a 10 RPM motor and wanted to use it to build a Leslie speaker. Our goal was to get the drum to spin at around 40 RPM so we could hear the doppler effect as it turned.",
+      did: "I figured out the gear sizes we needed to get a 4x speed increase. I designed the 48 tooth and 12 tooth gears in SolidWorks, along with the drum and housing. We 3D printed the gears and drum and laser cut the housing.",
+      hard: "The drum kept tipping as it spun. It would rub against the housing, and the gears would slip out of alignment. We ran the shaft all the way through the base and added shaft collars, which helped it spin a little longer.",
+      ended: "The speaker played audio, and the gears sped up the drum when it stayed upright. It only made it about six turns before getting stuck, so we didn’t get the sound effect we were going for.",
+      again: "I’d add a bearing at the top of the shaft and make the drum lighter. Once it could spin without getting stuck, I’d try higher speeds to see when I could hear the effect."
     },
     stats: [
       { label: "Gear Ratio", value: "4:1" },
