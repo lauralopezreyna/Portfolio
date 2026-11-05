@@ -167,11 +167,33 @@
   }
 
   /* ---------- project page ---------- */
+    /* Turns a video link into something we can show.
+     Works with YouTube, Vimeo, and video files (.mp4, .webm, .mov). */
+  function videoEmbed(url) {
+    var m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/))([\w-]{11})/);
+    if (m) return { type: 'iframe', src: 'https://www.youtube.com/embed/' + m[1] };
+    m = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
+    if (m) return { type: 'iframe', src: 'https://player.vimeo.com/video/' + m[1] };
+    if (/\.(mp4|webm|mov|m4v)(\?.*)?$/i.test(url)) return { type: 'file', src: url };
+    return null;
+  }
   function figure(ph, cls) {
-    return '<figure class="figure ' + (cls || '') + '"><div class="figure-box">' +
-      '<div class="figure-media">' + imgTag(ph.src, ph.caption || ph.label, ph.label) + '</div>' +
+    var v = ph.video ? videoEmbed(ph.video) : null;
+    var media;
+    if (v && v.type === 'iframe') {
+      media = '<div class="figure-media video"><iframe src="' + esc(v.src) + '" title="' + esc(ph.caption || ph.label) +
+              '" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
+    } else if (v && v.type === 'file') {
+      media = '<div class="figure-media video"><video controls preload="metadata" playsinline src="' + esc(v.src) + '"' +
+              (ph.src ? ' poster="' + esc(ph.src) + '"' : '') + '></video></div>';
+    } else {
+      media = '<div class="figure-media">' + imgTag(ph.src, ph.caption || ph.label, ph.label) + '</div>';
+    }
+    return '<figure class="figure ' + (cls || '') + '"><div class="figure-box">' + media +
       '<figcaption>' + esc(ph.caption) + '</figcaption></div></figure>';
   }
+
+
   function kv(label, value) {
     return '<div class="kv"><span class="kv-label">' + esc(label) + '</span><span class="kv-value">' + esc(value) + '</span></div>';
   }
