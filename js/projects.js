@@ -32,9 +32,9 @@ const PROJECTS = [
     cardText: "A sweeper-assisted scoop and a compact drivetrain, built to collect and score game pieces in the Turf Wars competition.",
     cardTools: "SolidWorks, CNC, lathe, 3D printing",
     image: "images/robot.jpg",
-    team: "[team size]",
-    role: "Mechanical analysis: drivetrain, ramp climbing, scoop arm",
-    tools: "SolidWorks, prototyping, 3D printing, laser cutting, machining, assembly",
+    team: "4",
+    role: "CAD design, manufacturing & assembly, Mechanical analysis (drivetrain, ramp climbing, scoop arm)",
+    tools: "SolidWorks, 3D printing, laser cutting, machining, assembly",
     story: {
       challenge: "Design and build a robot for the Turf Wars competition that can collect, transport, and score game pieces while staying inside the competition's size and actuator constraints.",
       did: "I worked on the mechanical analysis: the drivetrain, ramp climbing, and scoop arm calculations. The final design used a sweeper-assisted scoop and a compact drivetrain, developed through prototyping and testing.",
@@ -44,13 +44,13 @@ const PROJECTS = [
     },
     stats: [
       { label: "Competition Result", value: "[placement or score]" },
-      { label: "Robot Weight", value: "[weight]" },
-      { label: "Ramp Climb", value: "[angle or result]" }
+      { label: "Robot Weight", value: "6.63 lb" },
+      { label: "Ramp Climb", value: "Climbed 15° and 30° ramps" }
     ],
     /* The first photo is the big one at the top of the page. */
     photos: [
-      { src: "images/robotcad.png", label: "", caption: "Completed Turf Wars competition robot." },
-      { src: "images/projects/turf-wars-robot/photo-2.jpg", label: "", caption: "SolidWorks model of the robot and its mechanical components." },
+      { src: "images/robot.png", label: "", caption: "Completed Turf Wars competition robot." },
+      { src: "images/robotcad.png", label: "", caption: "SolidWorks model of the robot and its mechanical components." },
       { src: "images/projects/turf-wars-robot/photo-3.jpg", label: "", caption: "Prototype testing during the robot's development." },
       { src: "images/projects/turf-wars-robot/photo-4.jpg", label: "", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
     ]
