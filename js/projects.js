@@ -270,12 +270,12 @@ const PROJECTS = [
               "see the project" link to the enlarged view.
    --------------------------------------------------------------------- */
 const DRAWINGS = [
-  { title: "Light of Love",   medium: "[digital: procreate]",    meta: "[2026]", src: "images/light_of_love.png", project: "" },
-  { title: "BDAY!!!",   medium: "[color pencils & markers]",   meta: "[2024]", src: "images/BDAY!!!.png", project: "" },
-  { title: "Walter White", medium: "[pencil]",   meta: "[2025]", src: "images/walter_white.png", project: "" },
-  { title: "Transformation",  medium: "[ink]",            meta: "[2024]", src: "images/transformation.jpg", project: "" },
-  { title: "Headshot",  medium: "[ink & marker]",            meta: "[Year \u00b7 size]", src: "images/headshot.png", project: "" },
-  { title: "Take Flight",  medium: "[pencil]",            meta: "[2025]", src: "images/take_flight.JPG", project: "" },
-  { title: "Pocket Change",  medium: "[color pencils & pencil]",            meta: "[2023]", src: "images/pocket_change.png", project: "" },
-  { title: "Geared Dragon",  medium: "[pencil]",            meta: "[2022]", src: "images/geared_dragon.png", project: "" }
+  { title: "Light of Love",   medium: "digital: procreate",    meta: "2026", src: "images/light_of_love.png", project: "" },
+  { title: "BDAY!!!",   medium: "color pencils & markers",   meta: "2024", src: "images/BDAY!!!.png", project: "" },
+  { title: "Walter White", medium: "pencil",   meta: "2025", src: "images/walter_white.png", project: "" },
+  { title: "Transformation",  medium: "ink",            meta: "2024", src: "images/transformation.jpg", project: "" },
+  { title: "Headshot",  medium: "ink & marker",            meta: "2025", src: "images/headshot.png", project: "" },
+  { title: "Take Flight",  medium: "pencil",            meta: "2025", src: "images/take_flight.JPG", project: "" },
+  { title: "Pocket Change",  medium: "color pencils & pencil",            meta: "2023", src: "images/pocket_change.png", project: "" },
+  { title: "Geared Dragon",  medium: "pencil",            meta: "[2022", src: "images/geared_dragon.png", project: "" }
 ];
