@@ -136,16 +136,16 @@ const PROJECTS = [
     role: "Broke down tool & and aided in cost estimation",
     tools: "teardown, BOM, cost estimation, DFM",
     story: {
-      challenge: "Take apart a Nuova Simonelli portafilter, document every part, and work out what drives its cost.",
-      did: "I disassembled it, built its bill of materials, and estimated what each part costs. Steel machining turned out to be the biggest cost.",
-      hard: "[What didn't work the first time, and what you changed.]",
-      ended: "[What you'd change to lower the cost.]",
-      again: "[One thing you'd do differently.]"
+      challenge: "Take apart a Nuova Simonelli portafilter, figure out how its parts were made, and estimate what it costs to manufacture.",
+      did: "I took the portafilter apart, documented its eight components, and helped estimate material and labor costs for a batch of 1,000 units.",
+      hard: "It was easier to count the parts than to tell how they were made. The handle, for example, looked like a simple plastic part from the outside, but taking it apart revealed a metal counterweight. We had to make some assumptions about the materials and manufacturing steps to put together a cost estimate.",
+      ended: "We estimated a cost of $16.65 per portafilter, with $10.35 coming from steel machining. To bring that down, we proposed casting the head close to its final shape and machining only the surfaces that need a precise fit or seal.",
+      again: "I’d get quotes for both the machined and cast versions of the head to see whether casting would actually save money at 1,000 units."
     },
     stats: [
-      { label: "Largest Cost", value: "Steel machining" },
-      { label: "Parts in the BOM", value: "[number]" },
-      { label: "Estimated Cost per Unit", value: "[amount]" }
+      { label: "Largest Cost", value: "Steel machining (62% of estimated cost)" },
+      { label: "Parts in the BOM", value: "8" },
+      { label: "Estimated Cost per Unit", value: "$16.65 at 1,000 units" }
     ],
     photos: [
       { src: "images/projects/portafilter-teardown/photo-1.jpg", label: "[PHOTO: the portafilter]", caption: "The Nuova Simonelli portafilter." },
