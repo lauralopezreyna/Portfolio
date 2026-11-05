@@ -169,11 +169,11 @@ const PROJECTS = [
     role: "designer",
     tools: "solidworks, PRUSA 3D printer",
     story: {
-      challenge: "Collect finished prints from a Formlabs nylon printer and transport them easily.",
-      did: "I designed a 3d printable tray to carry finished nylon prints for easier post processing. I focused on easy access for smaller harder to grab prints, and implemented fillets and chamfers for easy human use.",
-      hard: "As the tray had to be stackable, implementing a feature that didn't --- was difficult. I ended up choosing slots that slide into one another, but I ran across the eroor of the slots being press fit. This was corrected by making the insertion slot have an offset.",
-      ended: "Overall it does the needed function well!",
-      again: "I'd recreate this again with a sliding insertion stacking method as that has a lower chance of having a fitting issue; however, a trade off would be losing available tray area."
+      challenge: "Design a stackable tray to carry finished nylon prints from the Formlabs Fuse to the post processing area. Small parts needed to be easy to pick up out of the tray.",
+      did: "I designed the tray in SolidWorks and printed it in PLA on a Prusa. I sloped the inside walls so it was easier to get my fingers around small parts and rounded the edges for easier handling.",
+      hard: "The stacking tabs fit too tightly in the first print, so the trays were hard to pull apart. I made the slots slightly larger to give the tabs more clearance.",
+      ended: "The finished tray carries nylon prints between workstations, and the revised slots let the trays stack and come apart more easily.",
+      again: "I’d try a rail that lets one tray slide onto another from the side. It would take up some usable space, but I’d like to see if it makes the trays easier to separate."
     },
     stats: [
       { label: "Tray Capacity", value: "150mm x 150mm x 50mm" },
@@ -184,7 +184,6 @@ const PROJECTS = [
       { src: "images/projects/print-tray/photo-1.jpg", label: "[PHOTO: the tray]", caption: "The finished tray." },
       { src: "images/projects/print-tray/photo-2.jpg", label: "[IMAGE: CAD model]", caption: "CAD model of the tray." },
       { src: "images/projects/print-tray/photo-3.jpg", label: "[VIDEO: tray in use]", caption: "The tray collecting and carrying prints." },
-      { src: "images/projects/print-tray/photo-4.jpg", label: "[YOUR CONCEPT SKETCH]", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }
     ]
   }
 
