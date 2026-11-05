@@ -51,7 +51,7 @@ const PROJECTS = [
     photos: [
       { src: "images/robot.png", label: "", caption: "Completed Turf Wars competition robot." },
       { src: "images/robotcad.png", label: "", caption: "SolidWorks model of the robot and its mechanical components." },
-      { src: "images/projects/turf-wars-robot/photo-3.jpg", label: "", caption: "Prototype testing during the robot's development." },
+      { video: "images/videorobot.mp4", src: "", label: "", caption: "Prototype testing during the robot's development." },
       /*{ src: "images/projects/turf-wars-robot/photo-4.jpg", label: "", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }*/
     ]
   },
@@ -115,9 +115,9 @@ const PROJECTS = [
       { label: "Target Drum Speed", value: "40 RPM" }
     ],
     photos: [
-      { src: "images/projects/leslie-speaker/photo-1.jpg", label: "", caption: "The final prototype." },
-      { src: "images/projects/leslie-speaker/photo-2.jpg", label: "", caption: "CAD of the gear system and rotating drum." },
-      { src: "images/projects/leslie-speaker/photo-3.jpg", label: "", caption: "The drum spinning." },
+      { src: "images/speaker1.jpg", label: "", caption: "The final prototype." },
+      /*{ src: "images/projects/leslie-speaker/photo-2.jpg", label: "", caption: "CAD of the gear system and rotating drum." },*/
+      { video: "images/speaker.mp4", src: "", label: "", caption: "Testing." },
       /*{ src: "images/projects/leslie-speaker/photo-4.jpg", label: "", caption: "Optional: an early sketch shows how you think before the CAD.", wide: true }*/
     ]
   },
