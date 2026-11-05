@@ -133,8 +133,8 @@ const PROJECTS = [
     cardTools: "teardown, BOM, cost estimation, DFM",
     image: "images/portafilter.jpg",
     team: "2",
-    role: "Broke down tool & and aided in cost estimation",
-    tools: "teardown, BOM, cost estimation, DFM",
+    role: "Teardown and Cost Estimation",
+    tools: "Product teardown, bill of materials (BOM), cost estimation, design for manufacturing (DFM)",
     story: {
       challenge: "Take apart a Nuova Simonelli portafilter, figure out how its parts were made, and estimate what it costs to manufacture.",
       did: "I took the portafilter apart, documented its eight components, and helped estimate material and labor costs for a batch of 1,000 units.",
