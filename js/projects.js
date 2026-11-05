@@ -181,7 +181,7 @@ const PROJECTS = [
       { label: "Status", value: "Finished" }
     ],
     photos: [
-      { src: "images/projects/print-tray/photo-1.jpg", label: "[PHOTO: the tray]", caption: "CAD model of the tray." },
+      { src: "images/tray_top.png", label: "[PHOTO: the tray]", caption: "CAD model of the tray." },
       /*{ src: "images/projects/print-tray/photo-2.jpg", label: "[IMAGE: CAD model]", caption: "CAD model of the tray." },
       { src: "images/projects/print-tray/photo-3.jpg", label: "[VIDEO: tray in use]", caption: "The tray collecting and carrying prints." },*/
     ]
