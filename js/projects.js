@@ -165,8 +165,8 @@ const PROJECTS = [
     cardText: "A simple tray, designed in CAD, that collects and transports prints from a Formlabs FUSE printer.",
     cardTools: "solidworks",
     image: "images/print_tray.png",
-    team: "individual",
-    role: "designer",
+    team: "Individual",
+    role: "Designer",
     tools: "solidworks, PRUSA 3D printer",
     story: {
       challenge: "Design a stackable tray to carry finished nylon prints from the Formlabs Fuse to the post processing area. Small parts needed to be easy to pick up out of the tray.",
@@ -176,7 +176,7 @@ const PROJECTS = [
       again: "I’d try a rail that lets one tray slide onto another from the side. It would take up some usable space, but I’d like to see if it makes the trays easier to separate."
     },
     stats: [
-      { label: "Tray Capacity", value: "150mm x 150mm x 50mm" },
+      { label: "Tray Capacity", value: "150 x 150 x 50 mm" },
       { label: "Material", value: "PLA" },
       { label: "Status", value: "Finished" }
     ],
