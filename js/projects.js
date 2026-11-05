@@ -36,14 +36,14 @@ const PROJECTS = [
     role: "CAD design, manufacturing & assembly, Mechanical analysis (drivetrain, ramp climbing, scoop arm)",
     tools: "SolidWorks, 3D printing, laser cutting, machining, assembly",
     story: {
-      challenge: "Design and build a robot for the Turf Wars competition that can collect, transport, and score game pieces while staying inside the competition's size and actuator constraints.",
-      did: "I worked on the mechanical analysis: the drivetrain, ramp climbing, and scoop arm calculations. The final design used a sweeper-assisted scoop and a compact drivetrain, developed through prototyping and testing.",
-      hard: "[What didn't work the first time, and what you changed.]",
-      ended: "[How it did at the competition, in a sentence or two.]",
-      again: "[One thing you'd do differently.]"
+      challenge: "Build a robot for Turf Wars that could pick up game pieces, carry them up ramps, and drop them in scoring zones. It had to fit inside an 11-inch cube at the start and use no more than six actuators.",
+      did: "I calculated how much torque the drivetrain needed to climb the 15° and 30° ramps. I also calculated how much torque the scoop needed to lift the game pieces and checked how much the arm would bend under load.",
+      hard: "Even after we made the scoop’s front edge steeper, it still had trouble picking up small pieces and heavy hockey pucks. We added a sweeper to push pieces into the scoop and made the scoop longer to guide them out during drop off.",
+      ended: "The robot climbed both ramps in testing. During the competition, a gear shifted out of alignment and the right wheels lost power. We also had trouble controlling the scoop in both directions, so we couldn’t complete a scoring cycle.",
+      again: "I’d run full 4 minute practice matches earlier with the same electronics we planned to compete with. That would give us time to catch problems that only showed up after repeated climbs, pickups, and drop offs."
     },
     stats: [
-      { label: "Competition Result", value: "[placement or score]" },
+      { label: "Competition Result", value: "Unable to complete a scoring cycle" },
       { label: "Robot Weight", value: "6.63 lb" },
       { label: "Ramp Climb", value: "Climbed 15° and 30° ramps" }
     ],
