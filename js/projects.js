@@ -82,9 +82,9 @@ const PROJECTS = [
       { label: "Dispense Time", value: "Testing pending" }
     ],
     photos: [
-      { src: "images/projects/water-dispenser/photo-1.jpg", label: "", caption: "The completed dispenser prototype." },
-      { src: "images/projects/water-dispenser/photo-2.jpg", label: "", caption: "The design behind the dispenser." },
-      /*{ src: "images/projects/water-dispenser/photo-3.jpg", label: "", caption: "Testing with different cup sizes." },
+      { src: "images/dispenser.png", label: "", caption: "The completed dispenser prototype." },
+      /*{ src: "images/projects/water-dispenser/photo-2.jpg", label: "", caption: "The design behind the dispenser." },
+      { src: "images/projects/water-dispenser/photo-3.jpg", label: "", caption: "Testing with different cup sizes." },
       { src: "images/projects/water-dispenser/photo-4.jpg", label: "", caption: "Prototype phase", wide: true }*/
     ]
   },
@@ -148,9 +148,9 @@ const PROJECTS = [
       { label: "Estimated Cost per Unit", value: "$16.65 at 1,000 units" }
     ],
     photos: [
-      { src: "images/projects/portafilter-teardown/photo-1.jpg", label: "[PHOTO: the portafilter]", caption: "The Nuova Simonelli portafilter." },
-      { src: "images/projects/portafilter-teardown/photo-2.jpg", label: "[IMAGE: BOM and cost chart]", caption: "The bill of materials and where the cost goes." },
-      { src: "images/projects/portafilter-teardown/photo-3.jpg", label: "[IMAGE: the disassembled parts]", caption: "Every part laid out after the teardown." },
+      { src: "images/portafilter_main.png", label: "", caption: "The Nuova Simonelli portafilter." },
+      { src: "images/portafilter_dis.png", label: "", caption: "Every part laid out after the teardown." },
+      { src: "images/porta_bom.png", label: "", caption: "The bill of materials and where the cost goes." },
       /*{ src: "images/projects/portafilter-teardown/photo-4.jpg", label: "[YOUR CONCEPT SKETCH]", caption: "Optional: a sketch of a lower-cost design.", wide: true }*/
     ]
   },
